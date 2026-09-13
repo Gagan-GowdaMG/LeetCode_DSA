@@ -7,11 +7,11 @@ class Solution:
             if -2**31<c>(2**31)-1 :
                 return 0
             else:
-                return c*-1
+                return int(c)*-1
         else:
             c=a[::-1]
             c=int(c)
             if -2**31<c>(2**31)-1 :
                 return 0
             else:
-                return c
+                return int(c)
