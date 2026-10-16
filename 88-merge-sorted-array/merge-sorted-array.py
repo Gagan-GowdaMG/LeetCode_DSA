@@ -10,5 +10,5 @@ class Solution:
         for i in range(len(nums1)):
             for j in range(len(nums1)-i-1):
                 if nums1[j]>nums1[j+1]:
-                    nums1[j],nums1[j+1]=nums1[j+1],nums1[j]    
+                    nums1[j],nums1[j+1]=nums1[j+1],nums1[j]   
         
